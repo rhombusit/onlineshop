@@ -8,6 +8,7 @@ use DB;
 class ConfirmedListController extends Controller
 {
 
+    
 
     function index()
     {
