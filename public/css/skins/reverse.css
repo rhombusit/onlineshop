@@ -1,0 +1,113 @@
+/* line 7, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse.sidebar-mini .main-sidebar:after {
+  background-color: color(primary);
+}
+
+/* line 13, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li.active > a {
+  background-color: #fff;
+  box-shadow: none;
+  color: color(primary);
+}
+
+/* line 22, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li.active ul.dropdown-menu li a,
+body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li ul.dropdown-menu li a {
+  background-color: transparent;
+  color: color_lighten(font, 10%);
+}
+
+/* line 25, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li.active ul.dropdown-menu li a:hover,
+body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li ul.dropdown-menu li a:hover {
+  background-color: color_lighten(light, 7.6%);
+  color: color(dark);
+}
+
+/* line 31, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li.active ul.dropdown-menu li.active a,
+body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li ul.dropdown-menu li.active a {
+  background-color: transparent !important;
+  color: color(primary);
+}
+
+/* line 42, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse .main-sidebar {
+  background-color: color(primary);
+}
+
+/* line 45, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse .main-sidebar .sidebar-brand a {
+  color: #fff;
+}
+
+/* line 51, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse .main-sidebar .sidebar-menu li a {
+  color: color_lighten(primary, 25%);
+}
+
+/* line 53, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse .main-sidebar .sidebar-menu li a:hover {
+  background-color: #6070e5;
+}
+
+/* line 58, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse .main-sidebar .sidebar-menu li.active a,
+body.skin-reverse .main-sidebar .sidebar-menu li.active a:hover,
+body.skin-reverse .main-sidebar .sidebar-menu li.active ul.dropdown-menu li a:hover,
+body.skin-reverse .main-sidebar .sidebar-menu li.active ul.dropdown-menu li a {
+  background-color: #6070e5;
+}
+
+/* line 65, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse .main-sidebar .sidebar-menu li.menu-header {
+  color: #afb7ff;
+}
+
+/* line 70, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse .main-sidebar .sidebar-menu li ul.dropdown-menu li a {
+  color: color_lighten(primary, 25%);
+}
+
+/* line 72, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse .main-sidebar .sidebar-menu li ul.dropdown-menu li a:hover {
+  background-color: color(primary);
+  color: #fff;
+}
+
+/* line 78, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse .main-sidebar .sidebar-menu li ul.dropdown-menu li.active a {
+  color: #fff;
+}
+
+/* line 88, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse .navbar-bg,
+body.skin-reverse .navbar {
+  background-color: #fff;
+}
+
+/* line 91, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse .navbar-bg .nav-link.nav-link-user,
+body.skin-reverse .navbar-bg .nav-link,
+body.skin-reverse .navbar .nav-link.nav-link-user,
+body.skin-reverse .navbar .nav-link {
+  color: #000;
+}
+
+/* line 94, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse .navbar-bg .nav-link.nav-link-user:hover,
+body.skin-reverse .navbar-bg .nav-link:hover,
+body.skin-reverse .navbar .nav-link.nav-link-user:hover,
+body.skin-reverse .navbar .nav-link:hover {
+  color: #1a1a1a;
+}
+
+/* line 100, D:/jesty/admin-template/sources/scss/skins/reverse.scss */
+body.skin-reverse .navbar-bg .form-inline .btn,
+body.skin-reverse .navbar-bg .form-inline .form-control,
+body.skin-reverse .navbar .form-inline .btn,
+body.skin-reverse .navbar .form-inline .form-control {
+  background-color: color_lighten(primary, 31.5%);
+}
+
+/*# sourceMappingURL=reverse.css.map */

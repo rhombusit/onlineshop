@@ -1,0 +1,383 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+}
+
+p {
+    
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+.row{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+   /* min-width: 250px;
+    max-width: 250px;*/
+    background: #000;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  /*  padding: 20px;*/
+    background: #000;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #1e90ff;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+       padding: 9px;
+    font-size: 1em;
+    display: block;
+    color: #fff;
+   
+}
+
+#sidebar ul li a:hover {
+    /*color: #7386D5;*/
+    color: #fff;
+    background: #1e90ff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #1e90ff;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #1e90ff;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #1e90ff !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    border-left: solid;
+    border-left-color: #1e90ff;
+    border-left-width: 20px;
+    border-bottom: solid;
+    border-bottom-width: 20px;
+    border-bottom-color: #1e90ff;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+.imgm{
+	border-radius: 81%; 
+    width: 200px;
+    height: 158px;
+}
+.hh{
+	margin-left: 12px;
+}
+
+.gg{
+	color:  #1e90ff;
+}
+
+.tt{
+
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: #1e90ff;
+
+}
+.list{
+	padding-top: 22px;
+	list-style-type: none;
+
+}
+.list1{
+	padding: 10px;
+}
+.list2{
+    width: 175px;
+}
+.text{
+    width: 115px;
+    border: none;
+    background: #1d1c1c1a;
+	/*background: #9e9e9e1a;*/
+}
+.bb{
+    padding: 10px;
+}
+.cc{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.box{
+    margin: 75px 10px 10px 10px;
+    background: #1d1c1c1a;
+}
+.aa{
+width: 100px;
+border: none;
+}
+.imgf{
+
+	      width: 39px;
+    height: 32px;
+    /* padding: 30px; */
+    /* margin-top: 1px; */
+   
+
+}
+.tb{
+	font-size: 10px;
+}
+.tb0{
+    border: none;
+	width: 92px;
+	background: #e8e5e5;
+}
+.tb1{
+	margin-left: 3px;
+}
+
+.tb2{
+	border: none;
+    width: 80px;
+    background: #e8e5e5;
+}
+.tb3{
+    border: none;
+	width: 62px;
+	background: #e8e5e5;
+}
+.tb4{
+     border: none;
+	width: 22px;
+	background: #e8e5e5;
+}
+.tb5{
+     border: none;
+	width: 32px;
+	background: #e8e5e5;
+}
+
+.footer{
+	padding-top: 120px;
+	
+
+}
+.tbg{
+	background: #f9f9f9;
+}
+.bd{
+	/*border-top: solid;
+	border-width: 1px;
+	padding: 10px;*/
+}
+.total{
+color: red;
+font-size: 30px;
+}
+.ppp{
+    width: 300px;
+}
+
+.pstyle{
+
+    margin-top: 35px;
+}
+.total1{
+	padding-top: 10px;
+}
+.lis{
+    width: 440px;
+}
+.sty{
+    border: 4px solid #1790ff;
+}
+ul{
+    list-style: none;
+   /* padding-top: 30px;*/
+}
+.stt{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/*.scroll{
+    overflow-x: scroll;
+     width:700px;
+     
+}*/
+.scroll1{
+    overflow-x: scroll;
+    /* width:350px;*/
+     /*height:400px;*/
+}
+h4{
+    
+    background-color: #fff;
+    text-align: center;
+}
+.hhh{
+    margin-top: -15px;
+}
+
+.left{
+    text-align: left;
+}
+.right1{
+    text-align: right;
+}
+.btnn {
+    /* display: inline-block; */
+    padding: 10px 42px;
+   
+    
+     border-radius: 0px; 
+}
+.box1{
+    font-size: 11px;
+}
+.image-gallery #images{
+    min-height: 600px;
+}
+.image-gallery #images li img{
+    padding: 15px;
+    opacity: 0;
+}
+.st1{
+    padding-right: 1px;
+    padding-left: 10px
+}
+
+.dtHorizontalVerticalExampleWrapper {
+max-width: 600px;
+margin: 0 auto;
+}
+#dtHorizontalVerticalExample th, td {
+white-space: nowrap;
+}
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+  bottom: .5em;
+}
